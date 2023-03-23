@@ -25,7 +25,7 @@ if (!isset($_POST['login']) && !isset($_POST['haslo'])) {
     $login = mysqli_real_escape_string($conn, $regtab['login']);
     $haslo = mysqli_real_escape_string($conn, $regtab['haslo']);
 
-    $result = $conn->query("SELECT * FROM users WHERE `login`='$_POST[login]'");
+    $result = $conn->query("SELECT * FROM users WHERE `login`='$login'");
 
     if ($result->num_rows == 1) {
         $_SESSION['groot'] = '<span style="color:red">Taki użytkownik juz istnieje</span>';
