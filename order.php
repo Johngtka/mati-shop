@@ -1,8 +1,10 @@
 <!DOCTYPE HTML>
 <html lang="pl">
+
 <head>
     <meta charset="utf-8" />
     <title>Zamówienie Towaru</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <style>
         body {
             background-color: #ffffff;
@@ -27,7 +29,8 @@
             overflow: hidden;
         }
 
-        td, th {
+        td,
+        th {
             padding: 15px;
             border: 1px solid #ffffff;
             text-align: left;
@@ -69,37 +72,38 @@
 
 <body>
 
-	<h1>Zamówienie online</h1>
-	<form action="koszyk.php" method="post"> 
-	    Smart Glasses (99.99 PLN/szt): 
-		<input type="text" name="produkt1" />	
-			<br /><br />
-			Smartbuty (217.99 PLN/szt): 
-		<input type="text" name="produkt2" />
-			<br /><br />
-			Smart Shoes (429.99 PLN/szt): 
-		<input type="text" name="produkt3" />
-			<br /><br />
-			Interactive wall (399.99 PLN/szt): 
-		<input type="text" name="produkt4" />
-			<br /><br />
-			Holographic Projector (699.99 PLN/szt): 
-		<input type="text" name="produkt5" />
-			<br /><br />
-			Electronic Nanny (2999.99 PLN/szt): 
-		<input type="text" name="produkt6" />
-			<br /><br />
-			Watch for Animals (349.99 PLN/szt): 
-		<input type="text" name="produkt7" />
-			<br /><br />
-			Smart Jacket (549.99 PLN/szt): 
-		<input type="text" name="produkt8" />
-			<br /><br />
-			Smart Keyboard (199.99 PLN/szt): 
-		<input type="text" name="produkt9" />
-			<br /><br />
-		<input type="submit" value="Wyślij zamówienie" />
-	</form>
+    <h1>Zamówienie online</h1>
+    <form action="koszyk.php" method="post">
+        Smart Glasses (99.99 PLN/szt):
+        <input type="text" name="produkt1" />
+        <br /><br />
+        Smartbuty (217.99 PLN/szt):
+        <input type="text" name="produkt2" />
+        <br /><br />
+        Smart Shoes (429.99 PLN/szt):
+        <input type="text" name="produkt3" />
+        <br /><br />
+        Interactive wall (399.99 PLN/szt):
+        <input type="text" name="produkt4" />
+        <br /><br />
+        Holographic Projector (699.99 PLN/szt):
+        <input type="text" name="produkt5" />
+        <br /><br />
+        Electronic Nanny (2999.99 PLN/szt):
+        <input type="text" name="produkt6" />
+        <br /><br />
+        Watch for Animals (349.99 PLN/szt):
+        <input type="text" name="produkt7" />
+        <br /><br />
+        Smart Jacket (549.99 PLN/szt):
+        <input type="text" name="produkt8" />
+        <br /><br />
+        Smart Keyboard (199.99 PLN/szt):
+        <input type="text" name="produkt9" />
+        <br /><br />
+        <input type="submit" value="Wyślij zamówienie" />
+    </form>
 
 </body>
+
 </html>

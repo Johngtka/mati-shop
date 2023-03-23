@@ -2,16 +2,12 @@
 <html>
 
 <head>
-
 	<meta charset="utf-8" />
 	<title>Elektronika dla Ciebie</title>
-	<link rel="stylesheet" href="assets/css/index.css" type="text/css" />
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 
 <body style="margin:0">
-
-
-
 	<!-- Start Header -->
 	<table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#f3971b">
 		<tr>
@@ -24,25 +20,29 @@
 							</font>
 						</td>
 						<td width="30%">&nbsp;</td>
-						<td><a href="#home" style="text-decoration: none;">
+						<td>
+							<a href="#home" style="text-decoration: none;">
 								<font face="arial" color="#ffffff" size="3">
 									STRONA GŁÓWNA
 								</font>
 							</a>
 						</td>
-						<td><a href="#about" style="text-decoration: none;">
+						<td>
+							<a href="#about" style="text-decoration: none;">
 								<font face="arial" color="#ffffff" size="3">
 									O NAS
 								</font>
 							</a>
 						</td>
-						<td><a href="#products" style="text-decoration: none;">
+						<td>
+							<a href="#products" style="text-decoration: none;">
 								<font face="arial" color="#ffffff" size="3">
 									PRODUKTY
 								</font>
 							</a>
 						</td>
-						<td><a href="#faq" style="text-decoration: none;">
+						<td>
+							<a href="#faq" style="text-decoration: none;">
 								<font face="arial" color="#ffffff" size="3">
 									FAQ
 								</font>
@@ -54,31 +54,25 @@
 								</font>
 							</a>
 						</td>
-						<td><a href="#contact" style="text-decoration: none;">
+						<td>
+							<a href="#contact" style="text-decoration: none;">
 								<font face="arial" color="#ffffff" size="3">
 									KONTAKT
+								</font>
+							</a>
 						<td>
-							<div div style="text-align: center;">
-								<a href="order.php" style="text-decoration: none;">
-									<font face="arial" color="#ffffff" size="3">
-										ZAMÓWIENIE
-									</font>
+							<a href="order.php" style="text-decoration: none;">
+								<font face="arial" color="#ffffff" size="3">
+									ZAMÓWIENIE
+								</font>
+							</a>
 						<td>
-							<div style="text-align: center;">
-								<a href="koszyk.php" style="text-decoration: none;">
-									<font face="arial" color="#ffffff" size="3">
-										KOSZYK
-									</font>
+							<a href="konto.php" style="text-decoration: none;">
+								<font face="arial" color="#ffffff" size="3">
+									KONTO
+								</font>
+							</a>
 						</td>
-						<td>
-							<div style="text-align: center;">
-								<a href="konto.php" style="text-decoration: none;">
-									<font face="arial" color="#ffffff" size="3">
-										KONTO
-									</font>
-						</td>
-						</a>
-						</div>
 			</td>
 		</tr>
 	</table>
@@ -144,7 +138,7 @@
 					<!-- Heading  End-->
 					<tr>
 						<td width="35%">
-							<img src="icon.png" width="100%" alt="logo">
+							<img src="img/icon.png" width="100%" alt="logo">
 						</td>
 						<td width="65%" valign="top">
 							<table border="0" width="100%" cellpadding="0" cellspacing="0" align="center">
@@ -416,7 +410,7 @@
 											Inteligentne okulary
 										</font>
 										<br /><br />
-										<img src="Inteligentne okulary.png" width="100%" />
+										<img src="img/Inteligentne okulary.png" width="100%" />
 									</td>
 								</tr>
 							</table>
@@ -435,7 +429,7 @@
 											Smartbuty
 										</font>
 										<br /><br />
-										<img src="buty.png" width="100%" />
+										<img src="img/buty.png" width="100%" />
 									</td>
 								</tr>
 							</table>
@@ -454,7 +448,7 @@
 											Interaktywna ściana
 										</font>
 										<br /><br />
-										<img src="wall.png" width="100%" />
+										<img src="img/wall.png" width="100%" />
 									</td>
 								</tr>
 							</table>
@@ -474,7 +468,7 @@
 											Projektor Holograficzny
 										</font>
 										<br /><br />
-										<img src="projektor.png" width="100%" />
+										<img src="img/projektor.png" width="100%" />
 									</td>
 								</tr>
 							</table>
@@ -493,7 +487,7 @@
 											Elektroniczna Niania
 										</font>
 										<br /><br />
-										<img src="robot.png" width="100%" />
+										<img src="img/robot.png" width="100%" />
 									</td>
 								</tr>
 							</table>
@@ -512,7 +506,7 @@
 											Zegarek dla Zwierząt
 										</font>
 										<br /><br />
-										<img src="zegarek.png" width="100%" />
+										<img src="img/zegarek.png" width="100%" />
 									</td>
 								</tr>
 							</table>
@@ -532,7 +526,7 @@
 											Inteligentna kurtka
 										</font>
 										<br /><br />
-										<img src="kurtka.png" width="100%" />
+										<img src="img/kurtka.png" width="100%" />
 									</td>
 								</tr>
 							</table>
@@ -551,7 +545,7 @@
 											Inteligentny Gwizdek
 										</font>
 										<br /><br />
-										<img src="gwizdek.png" width="100%" />
+										<img src="img/gwizdek.png" width="100%" />
 									</td>
 								</tr>
 							</table>
@@ -570,7 +564,7 @@
 											Smart Klawiatura
 										</font>
 										<br /><br />
-										<img src="klawiatura.png" width="100%" />
+										<img src="img/klawiatura.png" width="100%" />
 									</td>
 								</tr>
 							</table>
@@ -610,7 +604,7 @@
 							<table border="0" width="100%" cellpadding="15" cellspacing="0" align="center" bgcolor="#292929">
 								<tr>
 									<td>
-										<img src="photo.png" width="100%" alt="team" />
+										<img src="img/photo.png" width="100%" alt="team" />
 										<br /><br />
 										<font face="arial" size="5" color="#ffffff">
 											Mateusz Ściegiński
@@ -629,7 +623,7 @@
 							<table border="0" width="100%" cellpadding="15" cellspacing="0" align="center" bgcolor="#292929">
 								<tr>
 									<td>
-										<img src="fundator.png" width="100%" alt="team" />
+										<img src="img/fundator.png" width="100%" alt="team" />
 										<br /><br />
 										<font face="arial" size="5" color="#ffffff">
 											Kacper Piwnicki
@@ -648,7 +642,7 @@
 							<table border="0" width="100%" cellpadding="15" cellspacing="0" align="center" bgcolor="#292929">
 								<tr>
 									<td>
-										<img src="up.png" width="100%" alt="team" />
+										<img src="img/up.png" width="100%" alt="team" />
 										<br /><br />
 										<font face="arial" size="5" color="#ffffff">
 											Gabriel Dębski
@@ -667,7 +661,7 @@
 							<table border="0" width="100%" cellpadding="15" cellspacing="0" align="center" bgcolor="#292929">
 								<tr>
 									<td>
-										<img src="developer.png" width="100%" alt="team" />
+										<img src="img/developer.png" width="100%" alt="team" />
 										<br /><br />
 										<font face="arial" size="5" color="#ffffff">
 											Jan Gorczyński
