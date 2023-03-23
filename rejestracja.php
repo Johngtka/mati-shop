@@ -6,12 +6,71 @@
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        section {
+            width: 100%;
+            height: 100vh;
+            text-align: center;
+        }
+
+        main {
+            padding: 30px;
+            width: 15%;
+            margin-left: auto;
+            margin-right: auto;
+            border: 2px solid #000;
+            border-radius: 1pc;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            padding: 5px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="reset"],
+        input[type="submit"] {
+            padding: 5px 15px;
+            margin-right: 10px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="reset"] {
+            background-color: #ccc;
+        }
+
+        input[type="submit"] {
+            background-color: orange;
+            color: #fff;
+        }
+
+        a {
+            font-family: Arial;
+            text-decoration: none;
+            font-weight: 800;
+            color: #fff;
+            padding: 5px;
+            background-color: orange;
+            border-radius: 5px;
+            font-size: 15px;
+        }
+    </style>
     <title>Rejestracja</title>
 </head>
 
 <body style="margin: 0">
-    <section style="width: 100%; height: 100vh; text-align: center">
-        <main style="padding: 30px; width: 20%; margin-left: auto; margin-right: auto; border: 2px solid #000; border-radius: 1pc">
+    <section>
+        <main>
             <form action="register.php" method="post">
                 <label>Imie: <input type="text" name="imie" required></label><br>
                 <label>Nazwisko: <input type="text" name="nazwisko" required></label><br>
@@ -27,7 +86,7 @@
                 <input type="reset" value="Wyszyść">
                 <input type="submit" value="Zarejestruj">
             </form>
-            <br><a href="index.php" style="font-family: arial; text-decoration: none; font-weight: 800; color: #fff; padding: 10px; background-color: orange; border-radius: 5px; font-size: 15px">Powrót</a>
+            <br><a href="index.php">Powrót</a>
         </main>
     </section>
 </body>
