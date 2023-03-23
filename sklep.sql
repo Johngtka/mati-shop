@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Czas generowania: 23 Mar 2023, 19:24
+-- Czas generowania: 23 Mar 2023, 20:56
 -- Wersja serwera: 10.4.27-MariaDB
 -- Wersja PHP: 8.2.0
 
@@ -35,6 +35,13 @@ CREATE TABLE `users` (
   `login` text NOT NULL,
   `haslo` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Zrzut danych tabeli `users`
+--
+
+INSERT INTO `users` (`id`, `imie`, `nazwisko`, `mail`, `login`, `haslo`) VALUES
+(1, 'admin', 'admin', 'sss@gmail.com', 'admin', 'admin');
 
 -- --------------------------------------------------------
 
@@ -77,7 +84,7 @@ ALTER TABLE `zam`
 -- AUTO_INCREMENT dla tabeli `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT dla tabeli `zam`

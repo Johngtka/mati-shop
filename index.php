@@ -1,3 +1,10 @@
+<?php
+session_start();
+if (isset($_SESSION['nazwa'])) {
+	$user = $_SESSION['nazwa'];
+	$opt = '<span><a href="logout.php" style="color: black; text-decoration: none; font-size: 20px;">wyloguj</a></span>';
+}
+?>
 <!DOCTYPE html>
 <html>
 
@@ -10,6 +17,7 @@
 <body style="margin:0">
 	<!-- Start Header -->
 	<table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#f3971b">
+
 		<tr>
 			<td>
 				<table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
@@ -17,6 +25,10 @@
 						<td>
 							<font face="arial" color="black" size="5">
 								<strong>Elektronika dla Ciebie</strong>
+								<?php
+								echo "<span>" . @$user['log'] . "</span>" . "<br>";
+								echo @$opt;
+								?>
 							</font>
 						</td>
 						<td width="30%">&nbsp;</td>

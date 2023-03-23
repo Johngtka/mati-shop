@@ -1,4 +1,4 @@
-<?php session_start() ?>
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
 
@@ -13,15 +13,15 @@
     <section style="width: 100%; height: 100vh; text-align: center">
         <main style="padding: 30px; width: 20%; margin-left: auto; margin-right: auto; border: 2px solid #000; border-radius: 1pc">
             <form action="register.php" method="post">
-                <label>Imie: <input type="text" name="imie"></label><br>
-                <label>Nazwisko: <input type="text" name="Nazwisko"></label><br>
-                <label>Email: <input type="email" name="mail"></label><br>
-                <label>Login: <input type="text" name="login"></label><br>
-                <label>Hasło: <input type="password" name="haslo"></label><br>
+                <label>Imie: <input type="text" name="imie" required></label><br>
+                <label>Nazwisko: <input type="text" name="nazwisko" required></label><br>
+                <label>Email: <input type="email" name="mail" required></label><br>
+                <label>Login: <input type="text" name="login" required></label><br>
+                <label>Hasło: <input type="password" name="haslo" required></label><br>
                 <?php
-                if (isset($_SESSION['error'])) {
-                    echo $_SESSION['error'] . "<br>";
-                    unset($_SESSION['error']);
+                if (isset($_SESSION['groot'])) {
+                    echo $_SESSION['groot'] . "<br>";
+                    unset($_SESSION['groot']);
                 }
                 ?>
                 <input type="reset" value="Wyszyść">
