@@ -23,7 +23,7 @@
                 <input type="reset" value="Wyszyść">
                 <input type="submit" value="Zaloguj">
             </form>
-            <br><a href="#" style="font-family: arial; text-decoration: none; font-weight: 800; color: #fff; padding: 10px; background-color: orange; border-radius: 5px; font-size: 15px">Zarejestruj</a>
+            <br><a href="rejestracja.php" style="font-family: arial; text-decoration: none; font-weight: 800; color: #fff; padding: 10px; background-color: orange; border-radius: 5px; font-size: 15px">Zarejestruj</a>
         </main>
     </section>
 </body>
